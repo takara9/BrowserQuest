@@ -38,6 +38,25 @@ Documentation is located in client and server directories.
 
 
 
+クライアントのセットアップ
+--------------------------
+
+シェルの実行で、サーバーのIPアドレスを埋め込みます。
+
+    # cd BrowserQuest/bin
+    # ./sl_setup
+
+
+ブラウザからのアクセス方法
+--------------------------
+
+以下のURLアドレスで、プレイできます。
+
+http://サーバーIPアドレス/client/
+
+
+
+
 
 
 
