@@ -15,17 +15,25 @@ Documentation is located in client and server directories.
 
 このBrowserQuestは、SOFTLAYERで動作する様に、修正したものです。
 
-動作環境
-OS Ubuntu Linux 14.04 LTS Trusty Tahr - LAMP Install (64 bit)
-CPU 1コア, メモリ 1G, ディスク 25GB
+
+仮想サーバーの動作環境
+----------------------
+
+このゲームは、以下の環境で動作する様に設定しています。
+
+    OS Ubuntu Linux 14.04 LTS Trusty Tahr - LAMP Install (64 bit)
+    CPU 1コア, メモリ 1G, ディスク 25GB
 
 
 
 サーバーへのインストール方法
 --------------------------------
 
-ウェブサーバーの公開ドキュメントのディレクトリで、gitからクローンします。
+必要なパッケージをインストールした後で、ウェブサーバーの
+公開ドキュメントのディレクトリで、gitからBrowserQuestをクローンします。
 
+    # apt-get update
+    # apt-get install -y curl vim git npm
     # cd /var/www/html
     # git clone https://github.com/takara9/BrowserQuest
 
@@ -47,7 +55,6 @@ CPU 1コア, メモリ 1G, ディスク 25GB
     # nodejs server/js/main.js
 
 
-
 クライアントのセットアップ
 --------------------------
 
@@ -63,10 +70,6 @@ CPU 1コア, メモリ 1G, ディスク 25GB
 以下のURLアドレスで、プレイできます。
 
 http://(サーバーIPアドレス)/BrowserQuest/client/
-
-
-
-
 
 
 
