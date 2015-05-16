@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 BrowserQuest
 ============
 
@@ -9,6 +8,38 @@ Documentation
 -------------
 
 Documentation is located in client and server directories.
+
+
+説明
+----
+
+このBrowserQuestは、SOFTLAYERで動作する様に、修正したものです。
+
+
+サーバーサイトのインストール方法
+--------------------------------
+
+必要なNode.jsのパッケージの取り込み
+
+    # git clone https://github.com/takara9/BrowserQuest
+    # cd BrowserQuest
+    # npm install -d
+
+次の設定ファイルを必要に応じて編集します。TCPポート番号:8000で通信できれば、
+このまま変更せずに利用できます。
+
+    # vi BrowserQuest/server/config_local.json
+
+
+サーバーの起動方法
+------------------
+
+    # nodejs server/js/main.js
+
+
+
+
+
 
 
 License
