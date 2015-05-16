@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 BrowserQuest
 ============
 
@@ -23,3 +24,7 @@ Created by [Little Workshop](http://www.littleworkshop.fr):
 
 * Franck Lecollinet - [@whatthefranck](http://twitter.com/whatthefranck)
 * Guillaume Lecollinet - [@glecollinet](http://twitter.com/glecollinet)
+=======
+# BrowserQuest
+HTML5 WebSocket Game
+>>>>>>> f7fc9479d39e1b66808db7447ff052fadc8b9a1f
