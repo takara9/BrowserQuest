@@ -15,13 +15,23 @@ Documentation is located in client and server directories.
 
 このBrowserQuestは、SOFTLAYERで動作する様に、修正したものです。
 
+動作環境
+OS Ubuntu Linux 14.04 LTS Trusty Tahr - LAMP Install (64 bit)
+CPU 1コア, メモリ 1G, ディスク 25GB
 
-サーバーサイトのインストール方法
+
+
+サーバーへのインストール方法
 --------------------------------
 
-必要なNode.jsのパッケージの取り込み
+ウェブサーバーの公開ドキュメントのディレクトリで、gitからクローンします。
 
+    # cd /var/www/html
     # git clone https://github.com/takara9/BrowserQuest
+
+
+必要なNode.jsのパッケージの取り込みます。
+
     # cd BrowserQuest
     # npm install -d
 
@@ -52,7 +62,7 @@ Documentation is located in client and server directories.
 
 以下のURLアドレスで、プレイできます。
 
-http://サーバーIPアドレス/client/
+http://(サーバーIPアドレス)/BrowserQuest/client/
 
 
 
